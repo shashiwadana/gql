@@ -4,7 +4,8 @@
       "id": "col-101",
       "name": "AMU",
       "location": "Uttar Pradesh",
-      "rating":5.0
+      "rating":5.0,
+      "rank" : 12,
    },
    
    {
