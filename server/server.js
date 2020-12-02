@@ -1,8 +1,14 @@
+const typeDefinition = `
+   type Query  {
+      greeting: String
+   }`
+
 const bodyParser = require('body-parser')
    const cors = require('cors')
    const express = require('express')
    const port = process.env.PORT|| 9000
    const app = express()
+
    
    //register middleware
    app.use(bodyParser.json() , cors())
